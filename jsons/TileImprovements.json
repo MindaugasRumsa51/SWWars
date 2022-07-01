@@ -184,6 +184,15 @@
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
 		"uniques": ["Unpillagable","Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
-	}
+	},
 	// Wonders
+	{
+		"name": "Canp",
+//		"terrainsCanBeBuiltOn": ["Land"],
+		"bonus": -1,
+		"turnsToBuild": 1,
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+2 Bonus]","Can only be built to improve a resource","Will not be displayed in Civilopedia"],
+		"shortcutKey": "C"
+	}
+
 ]
